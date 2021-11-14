@@ -17,7 +17,7 @@ import java.util.Scanner;
     media = (nota1 + nota2) / 2;
 
     System.out.println("Media:" + media);
-    System.out.println("Fim do programa");
+    System.out.println("\nFim do programa");
 
   }
 
