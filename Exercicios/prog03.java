@@ -1,9 +1,8 @@
-package Exercicios;
 
 // Teste de entrada de dados
 import java.util.Scanner;
 
-public class prog03 {
+ class prog03 {
   public static void main(String[] args) {
 
     float nota1, nota2, media;
