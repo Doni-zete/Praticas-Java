@@ -6,7 +6,7 @@ public class prog05 {
     String texto2 = texto.replace("FTC","FATEC");
     String msg="";
 
-    msg = "Tamanho:"+ texto.length()+"\n"+
+    msg = ""+ texto.length()+"\n"+
     "Maiusculo:" + texto.toUpperCase()+ "\n"+
     "Posicao de  'Sistemas':"+ texto.indexOf("Sistemas")+ "\n"+
     "Nova string:"+texto2;
