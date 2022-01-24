@@ -14,10 +14,14 @@ public class Ex6_Fatorial {
     System.out.println("Fatorial: ");
     int fatorial = scan.nextInt();
 
-    for (int i = fatorial; i >= 1;  i--) {
+    int multiplicacao = 1;
 
+    System.out.println(fatorial + "! = ");
+    for (int i = fatorial; i >= 1; i--) {
+      multiplicacao = multiplicacao * i;
 
     }
+    System.out.println(multiplicacao);
   }
 
 }
